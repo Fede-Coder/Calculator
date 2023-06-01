@@ -60,7 +60,7 @@ public class MainForm {
 
     public void Initialize() {
         FlatDarculaLaf.setup();
-        JFrame frame = new JFrame("Calculator");
+        JFrame frame = new JFrame("Calculator - v1.0.0");
         frame.setContentPane(new MainForm().panelMain);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setIconImage(Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("image/icon.png")));
